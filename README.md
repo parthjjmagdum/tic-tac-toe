@@ -42,3 +42,9 @@ minimax(state, depth, player)
 	return best
 end
 ```
+
+Now we'll see each part of this pseudocode with Python implementation. The Python implementation is available at this repository. First of all, consider it:
+
+> board = [ [0, 0, 0], [0, 0, 0], [0, 0, 0] ]
+> MAX = +1
+> MIN = -1
